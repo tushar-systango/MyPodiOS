@@ -1,0 +1,6 @@
+framework module MyPodiOS {
+  umbrella header "MyPodiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

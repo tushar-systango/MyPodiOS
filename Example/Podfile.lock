@@ -1,0 +1,16 @@
+PODS:
+  - MyPodiOS (0.1.0)
+
+DEPENDENCIES:
+  - MyPodiOS (from `../`)
+
+EXTERNAL SOURCES:
+  MyPodiOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyPodiOS: e6efa7ac6a7dc8b87e04b75a0ebaa41076631c55
+
+PODFILE CHECKSUM: 82c2cc750cc9d0a8afb3db7619ce629cb6e3fb5e
+
+COCOAPODS: 1.4.0

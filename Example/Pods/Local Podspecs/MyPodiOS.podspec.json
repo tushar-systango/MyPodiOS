@@ -1,0 +1,22 @@
+{
+  "name": "MyPodiOS",
+  "version": "0.1.0",
+  "summary": "A short description of MyPodiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/edgetechlabs/MyPodiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "edgetechlabs": "john@edgetechlabs.com"
+  },
+  "source": {
+    "git": "https://github.com/edgetechlabs/MyPodiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyPodiOS/Classes/**/*"
+}
