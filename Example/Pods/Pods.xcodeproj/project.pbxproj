@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2733CB6520594BEE0026C7C4 /* BlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733CB6320594BEE0026C7C4 /* BlueTooth.m */; };
 		329E26FDB5D7A56C65D04405FF870D65 /* Pods-MyPodiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D7C3FA16BED322DC75993A701899D /* Pods-MyPodiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A10B3F913CCA2C077D0542FDA5C7158 /* MyPodiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABA02A17B6CA99152A8A8F368CE99F9 /* MyPodiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AC359736DE864D5B7B33033EEB12BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B86005648F08C7FA4C202A087ECA38A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D9F47447BD08B3EBDC4121179FC6C5F7 /* Pods-MyPodiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4288A745FA53807741BED59945509 /* Pods-MyPodiOS_Tests-dummy.m */; };
 		F674B0034441CAB14A7EA33BFD674BFE /* MyPodiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5ABF6317FA34824D096532046F4E4 /* MyPodiOS-dummy.m */; };
-		F6B44901565D15B3F3B161180B212A71 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9E5B28A4CFC37DFC77E557886C832 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,23 +30,24 @@
 		06E98C34EAEC1222F3CF24AE3F2A6560 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF9FC080C400F997B8DBC54F1CFEC12 /* Pods-MyPodiOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyPodiOS_Tests-resources.sh"; sourceTree = "<group>"; };
 		18971F9CDE6FA20B8DEDEB679366609E /* Pods-MyPodiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyPodiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		270D7F7509FB28FD9B2763A513B21305 /* Pods_MyPodiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyPodiOS_Tests.framework; path = "Pods-MyPodiOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		270D7F7509FB28FD9B2763A513B21305 /* Pods_MyPodiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPodiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2733CB6320594BEE0026C7C4 /* BlueTooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlueTooth.m; path = MyPodiOS/Classes/BlueTooth.m; sourceTree = "<group>"; };
+		2733CB6420594BEE0026C7C4 /* BlueTooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlueTooth.h; path = MyPodiOS/Classes/BlueTooth.h; sourceTree = "<group>"; };
 		2F9268656C15410CE6D7792C87BBA0F1 /* Pods-MyPodiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPodiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30909F4C9F5928149860FBFE2D21398E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30909F4C9F5928149860FBFE2D21398E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3AB5ABF6317FA34824D096532046F4E4 /* MyPodiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyPodiOS-dummy.m"; sourceTree = "<group>"; };
-		3BF9E5B28A4CFC37DFC77E557886C832 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyPodiOS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		5B1959E0F1E18EFC0D2581C9DE74275B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B1959E0F1E18EFC0D2581C9DE74275B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		64514C0558874008F14C9EED8D25C699 /* Pods-MyPodiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyPodiOS_Tests.modulemap"; sourceTree = "<group>"; };
-		65EFC7812F136221BD56A32DDD4F91C2 /* MyPodiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyPodiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65EFC7812F136221BD56A32DDD4F91C2 /* MyPodiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MyPodiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ABA02A17B6CA99152A8A8F368CE99F9 /* MyPodiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyPodiOS-umbrella.h"; sourceTree = "<group>"; };
 		72D34B97A2B1FB630A232CBF9B9E271B /* MyPodiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyPodiOS.xcconfig; sourceTree = "<group>"; };
 		843D7C3FA16BED322DC75993A701899D /* Pods-MyPodiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyPodiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9529235E587EE857213388AF99541CBA /* Pods-MyPodiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPodiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F6A192DA2695F2C6D72768F9E5D22F0 /* MyPodiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyPodiOS-prefix.pch"; sourceTree = "<group>"; };
 		C4E4288A745FA53807741BED59945509 /* Pods-MyPodiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyPodiOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		CBEE82C59BB11F684B13245770DE7AF4 /* MyPodiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyPodiOS.framework; path = MyPodiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEE82C59BB11F684B13245770DE7AF4 /* MyPodiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPodiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC28ACF63D87BF285EF4DE40718DB055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD8580AFD8EDF9F2DF0FC1D0A484AE88 /* Pods-MyPodiOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyPodiOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EF43EA86747B63D1428B39FA0DBAACCB /* MyPodiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyPodiOS.modulemap; sourceTree = "<group>"; };
@@ -170,7 +171,8 @@
 		F66172A08FE5E234CE552C2B61F78BAA /* MyPodiOS */ = {
 			isa = PBXGroup;
 			children = (
-				3BF9E5B28A4CFC37DFC77E557886C832 /* ReplaceMe.m */,
+				2733CB6420594BEE0026C7C4 /* BlueTooth.h */,
+				2733CB6320594BEE0026C7C4 /* BlueTooth.m */,
 				B50F815CE4A264D4C716CFEA1A8D8126 /* Pod */,
 				F3C7B15F657E1FD15E8AAB5EE9DE68A3 /* Support Files */,
 			);
@@ -268,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F674B0034441CAB14A7EA33BFD674BFE /* MyPodiOS-dummy.m in Sources */,
-				F6B44901565D15B3F3B161180B212A71 /* ReplaceMe.m in Sources */,
+				2733CB6520594BEE0026C7C4 /* BlueTooth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
